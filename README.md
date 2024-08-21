@@ -8,7 +8,7 @@ https://github.com/opslabhqx/lddc
 
 To use this tap, you need to have Homebrew installed. If you don't have Homebrew, you can install it by following the instructions on the [Homebrew website](https://brew.sh/).
 
-Once you have Homebrew installed, you can add this tap and install `lddc` with the following commands:
+Once you have Homebrew installed, you can add this tap and install `lddc` (For Linux only) with the following commands:
 
 ```sh
 brew tap opslabhqx/lddc
