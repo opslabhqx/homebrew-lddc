@@ -1,14 +1,14 @@
 class Lddc < Formula
     desc "A simple script that collects and copies shared library dependencies of a specified binary to a given directory."
     homepage "https://github.com/opslabhqx/lddc"
-    version "v1.0.0"
+    version "v1.1.0"
 
     if Hardware::CPU.intel?
-      url "https://github.com/opslabhqx/lddc/releases/download/v1.0.0/lddc-v1.0.0-linux-amd64.tar.gz"
-      sha256 "a2beca9a42dfe7c00bb3d362635feb07b63e5d8024ef856f3caeaed23f32e1ae"
+      url "https://github.com/opslabhqx/lddc/releases/download/v1.1.0/lddc-v1.1.0-linux-amd64.tar.gz"
+      sha256 "6eabee3c0cfb0935089826a09850a00a08d6e7826d9e4c67a9710e351b45d558"
     elsif Hardware::CPU.arm?
-      url "https://github.com/opslabhqx/lddc/releases/download/v1.0.0/lddc-v1.0.0-linux-arm64.tar.gz"
-      sha256 "dcc33907c270d195d4e1574e191e32aceca695d28d0249e70bf08bc5f58124e3"
+      url "https://github.com/opslabhqx/lddc/releases/download/v1.1.0/lddc-v1.1.0-linux-arm64.tar.gz"
+      sha256 "eb1c63a07c77331a0ad9cbbafcfee191cae81d7b5acdc24ad556831fb6f65ff2"
     end
 
     license "MIT"
